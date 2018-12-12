@@ -97,14 +97,14 @@ h1{
 }
 .carousel_dot>ul{
 	margin: 0 auto;
-	width: 55px;
+	width: 66px;
 	overflow: hidden;
 }
 .carousel_dot>ul li:first-child{
 	margin-left:0;
 }
 .carousel_dot>ul li{
-	width: 15px;
+	width: 17px;
 	height: 15px;
 	float: left;
 	cursor: pointer;
@@ -166,6 +166,8 @@ h1{
 	-o-object-fit: fill;
 	object-fit: fill;
 	display: none;
+	position: relative;
+	z-index: 1;
 }
 .pic_video .play_icon{
 	width:100%;

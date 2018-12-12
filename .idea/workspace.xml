@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bb9b312-7fe2-46b1-8dea-3fa17445e354" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/css/index.css" afterPath="$PROJECT_DIR$/repeathtml/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/index.html" afterPath="$PROJECT_DIR$/repeathtml/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/js/index.js" afterPath="$PROJECT_DIR$/repeathtml/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repeathtml/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -26,12 +27,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repeathtml/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repeathtml/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="26" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +59,9 @@
       <list>
         <option value="$PROJECT_DIR$/repeathtml/html/pro.appcache" />
         <option value="$PROJECT_DIR$/repeathtml/pro.appcache" />
-        <option value="$PROJECT_DIR$/repeathtml/html/index.html" />
         <option value="$PROJECT_DIR$/repeathtml/css/index.css" />
+        <option value="$PROJECT_DIR$/repeathtml/html/index.html" />
+        <option value="$PROJECT_DIR$/repeathtml/js/index.js" />
       </list>
     </option>
   </component>
@@ -57,7 +71,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="265" />
     <option name="y" value="134" />
     <option name="width" value="871" />
@@ -94,12 +108,7 @@
             <path>
               <item name="yxhlance.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="yxhlance.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="sucai" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yxhlance.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yxhlance.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="sucai" type="462c0819:PsiDirectoryNode" />
+              <item name="repeathtml" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -142,15 +151,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544602900046</updated>
-      <workItem from="1544602902153" duration="2607000" />
+      <workItem from="1544602902153" duration="3956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2607000" />
+    <option name="totallyTimeSpent" value="3956000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="265" y="134" width="871" height="649" extended-state="1" />
+    <frame x="265" y="134" width="871" height="649" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25330132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -190,18 +199,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repeathtml/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repeathtml/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="159" column="9" lean-forward="false" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repeathtml/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repeathtml/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
           <folding />
         </state>
       </provider>

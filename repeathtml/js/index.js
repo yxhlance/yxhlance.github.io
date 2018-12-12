@@ -4,6 +4,21 @@ $(function(){
 	$('.nav_more_wrap').click(function() {
 		$(this).find('ul').fadeToggle();
 	});
+	$(window).scroll(function(){
+       var videoTag = $('.li1_pic .pic_video>video');
+	    if($(this).scrollTop()>21){
+            videoTag.css({
+                'width':0,
+                'height':0
+            });
+        }else{
+            videoTag.css({
+                'width':'',
+                'height':''
+            });
+        }
+        videoTag = null;
+    })
 });
 //index页面轮播图淡入淡出
 $(function(){

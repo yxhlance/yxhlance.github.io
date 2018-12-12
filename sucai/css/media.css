@@ -1,0 +1,1106 @@
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+    .d_bl{
+        height: 500px;
+    }
+    .d-banner{
+        height:500px;
+    }
+    .d_b1_d{
+        margin: 300px 0 0 50px;
+    }
+    .d_b1_pic{
+        width: 640px;
+        margin: 35px 100px 0 0;
+    }
+    .d_b2_d{
+        margin: 100px 100px 0 0;
+    }
+    .d_b2_pic{
+        width: 640px;
+        margin: 0 0 0 50px;
+    }
+    .d_b3_d{
+        margin: 300px 0 0 50px;
+    }
+    .d_b3_video{
+        width: 430px;
+        height: 260px;
+        right: 118px;
+        top: 88px;
+    }
+    .d_b3_pic{
+        width: 600px;
+        margin: 65px 45px 0 0;
+    }
+    .d_b3_pic img{
+        width: 635px;
+        height: 435px;
+    }
+    .d_c_ct{
+        width:1200px;
+    }
+    .d_c_ct ul{
+        width: 2160px;
+        left:-480px;
+        height: 450px;
+    }
+    .d_c_m{
+        width:240px;
+    }
+    /** news.html **/
+
+    .n_b{
+        height: 560px;
+    }
+    .news_bg_pic2{
+        height: 210px;
+    }
+
+    /** news.html END**/
+
+    /** contact.html **/
+
+    .con_ct_list_map{
+        right: -5%;
+        top: -30%;
+        width: 90%;
+    }
+    /** contact.html END **/
+    /** case.html **/
+    .b{
+        height: 616px;
+    }
+    .b_d{
+        margin: 250px 0 0 100px;
+    }
+    /** case.html END**/
+    /** join.html **/
+    .j_b{
+        height: 560px;
+    }
+    .join_bg_pic{
+        width: 1000px;
+        padding-top: 133px;
+    }
+    /** join.html END **/
+    /** contact.html  **/
+    .con_b{
+        height: 605px;
+    }
+    /** contact.html END **/
+}
+@media screen and (min-width: 900px) and (max-width: 1199px){
+    .nav{
+        margin: 10px 30px;
+    }
+    .nav>ul>li{
+        margin: 20px 20px 0;
+    }
+
+    /** index.html **/
+
+    .d_bl{
+        height: 450px;
+    }
+    .d-banner{
+        height:450px;
+    }
+    .d_b1_d{
+        margin: 200px 0 0 50px;
+        width: 250px;
+    }
+    .d_b1_pic{
+        width: 550px;
+        margin: 20px 50px 0 0;
+    }
+    .d_b2_d{
+        margin: 100px 50px 0 0;
+        width:  250px;
+    }
+    .d_b2_pic{
+        width: 500px;
+        margin: 20px 0 0 30px;
+    }
+    .d_b3_d{
+        margin: 300px 0 0 50px;
+    }
+    .d_b3_pic{
+        width: 500px;
+        margin: 65px 45px 0 0;
+    }
+    .d_b3_pic img{
+        width: 500px;
+    }
+    .d_b3_video {
+        position: absolute;
+        right: 130px;
+        top: 84px;
+        z-index: 1;
+        width: 338px;
+        height: 228px;
+    }
+    .d_c_ct{
+        width:900px;
+    }
+    .d_c_ct ul{
+        width: 1620px;
+        left: -360px;
+        height: 400px;
+    }
+    .d_c_m{
+        width:180px;
+    }
+
+    /** index.html END **/
+
+    /** news.html **/
+
+    .n_b{
+        height: 450px;
+    }
+    .news_bg_pic1{
+        width: 110px;
+        left: 5%;
+    }
+    .news_bg_pic2{
+        padding-top: 160px;
+        width: 600px;
+    }
+    .news_bg_pic3{
+        width: 150px;
+        right: 5%;
+    }
+    .news_bg_pic4{
+        width:50px;
+        right: 5%;
+    }
+
+    /** news.html END **/
+
+    /** join.html **/
+
+    .j_b{
+        height: 450px;
+    }
+    .join_bg_pic{
+        width: 800px;
+        padding-top: 109px;
+    }
+
+    /** join.html END**/
+
+    /** contact.html**/
+
+    .con_b{
+        height: 585px;
+    }
+    .con_ct_list{
+        width:900px;
+    }
+    .con_ct_list li{
+        margin:10px 0;
+    }
+    .con_ct_list_map{
+        right: -40%;
+        top: -45%;
+    }
+    .con_ct_list_map img{
+        width: 80%;
+    }
+
+    /** contact.html END**/
+
+    /** campus.html **/
+
+    .cam-m-ct{
+        width:880px;
+
+    }
+    .m01_d {
+        margin: 15% 0 0 25%;
+    }
+    .m03_d{
+        padding-right: 55px;
+    }
+    .m05_d{
+        padding-left: 50px
+    }
+    .m07_d{
+        padding-right: 60px;
+    }
+    .m09_d{
+        padding-left: 180px;
+    }
+    .m11_d{
+        padding-right: 50px;
+    }
+    .m11_img{
+        width:550px;
+    }
+    /** campus.html END **/
+    /** case.html **/
+    .b{
+        height: 516px;
+    }
+    .b_d{
+        margin: 200px 0 0 50px;
+    }
+    /** case.html END **/
+}
+@media screen and (min-width: 600px) and (max-width: 899px){
+    .header{
+        height: 100px;
+        background-color: #fff;
+    }
+    .top_nav{
+        height: 100px;
+    }
+    .logo{
+        float:none;
+        margin:0 auto;
+        padding-top: 15px;
+    }
+    .nav{
+        float: none;
+        margin:0 auto;
+        width: 480px;
+    }
+    .h_pc{
+        display: none;
+    }
+    .h_mobile{
+        display: block;
+        text-align: center;
+
+    }
+    .nav>ul>li{
+        float: left;
+        margin: 20px 20px 0;
+        width: 80px;
+    }
+    .nav_img{
+        display: block;
+        width: 80px;
+        position: relative;
+        font-size: 15px;
+        top:1px;
+    }
+    .nav_img img{
+        position: absolute;
+        width: 18%;
+        right: 8px;
+    }
+    .nav_img .nav li{
+        margin: 20px 10px;
+        width: 80px;
+        text-align: center;
+        float: none;
+    }
+    /** index.html **/
+    .container{
+        margin-top: 107px;
+    }
+    .d_bl{
+        height: 350px;
+    }
+    .d_b{
+        height: 350px;
+    }
+    .d_b1_d{
+        margin: 200px 0 0 30px;
+        width: 180px;
+    }
+    .d_b1_pic{
+        width: 380px;
+        margin: 50px 10px 0 0;
+    }
+    .d_b2_d{
+        margin: 100px 30px 0 0;
+        width: 200px;
+    }
+    .d_b2_pic{
+        width: 350px;
+        margin: 50px 0 0 20px;
+    }
+    .d_b3_d{
+        float: none;
+        margin: 0 auto;
+        width: 200px;
+    }
+    .d_b3_pic{
+        float: none;
+        width: 328px;
+        margin: 8px auto;
+    }
+    .d_b3_pic img{
+        width: 328px;
+    }
+    .d_b3_video{
+        width: 222px;
+        height: 149px;
+        right: 50%;
+        margin-right: -111px;
+        top: 13px;
+    }
+    .d_c_ct{
+        width:600px;
+    }
+    .d_c_ct ul{
+        width: 1620px;
+        left: -510px;
+        height: 350px;
+    }
+    .d_c_m{
+        width:180px;
+    }
+    .d_c_nav{
+        display: none;
+    }
+    .title_list img{
+        width: 70%;
+    }
+    .d_rd_list{
+        margin:50px auto;
+    }
+    .d_rd_list ul{
+        width:550px;
+    }
+    .d_rd_list li{
+        margin: 20px auto;
+        float: none;
+    }
+    .d_rd_list li img{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer_ct{
+        width: 100%;
+    }
+    .footer p{
+        float: none;
+        margin: 20px auto;
+    }
+
+    /** index.html END **/
+
+    /** case.html **/
+
+
+    .b{
+        height: 400px;
+    }
+    .b_d{
+        margin: 150px 0 0 35px;
+        width: 270px;
+    }
+    .b_pic{
+        width: 350px;
+        margin: 50px 0 0 0;
+    }
+
+    /** case.html END**/
+
+    /** news.html **/
+
+    .n_b{
+        height: 350px;
+    }
+    .news_bg_pic1{
+        width: 80px;
+        left: 5%;
+    }
+    .news_bg_pic2{
+        padding-top: 155px;
+        width: 400px;
+    }
+    .news_bg_pic3{
+        width: 120px;
+        right: 5%;
+    }
+    .news_bg_pic4{
+        width:30px;
+        right: 5%;
+    }
+    .n_ct_list{
+        min-width: 500px;
+    }
+    .n_ct_img{
+        width: 150px;
+    }
+    .new_ct_d{
+        width: 300px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .new_ct_d h1{
+        font-size: 16px;
+    }
+
+    /** news.html END **/
+
+    /** join.html **/
+
+    .j_b{
+        height: 350px;
+    }
+    .join_bg_pic{
+        width: 600px;
+        padding-top: 93px;
+    }
+
+    /** join.html END**/
+
+    /** contact.html**/
+
+    .con_b{
+        height: 465px;
+    }
+    .con_b ul{
+        width:550px;
+        margin: 5% auto;
+    }
+    .con_b li{
+        margin:0 10px;
+        font-size: 14px;
+    }
+    .con_b .title_list{
+        padding-top: 20px;
+    }
+    .con_bg_p {
+        width: 40px;
+    }
+    .con_bg_phone{
+        width:140px;
+    }
+    .con_bg_email {
+        width: 160px;
+    }
+    .con_bg_fax {
+        width: 100px;
+    }
+    .con_bg_location {
+        width: 160px;
+    }
+    .con_bg_site {
+        width: 120px;
+    }
+    .con_ct_list{
+        width:600px;
+    }
+    .con_ct_list li {
+        margin: 10px auto;
+        width: 90%;
+        font-size: 14px;
+    }
+    .con_ct_list_map{
+        display: none;
+    }
+
+    /** contact.html END**/
+
+    /** campus.html **/
+    .pc{
+        display: none !important;
+    }
+    .mob{
+        display: block !important;
+    }
+    .cam_ct{
+        top:107px;
+    }
+    .cam_a_d{
+        display: none;
+    }
+    .cam-m01 {
+        height: 350px;
+    }
+    .cam-strip{
+        height: 60px;
+    }
+    .cam-strip p{
+        line-height: 60px;
+        font-size: 14px;
+    }
+    .cam-m-ct{
+        width:100%;
+    }
+    .cam_ct>div:nth-of-type(2n+1):not(.cam-m01){
+        height: 530px;
+    }
+    .cam_ct>div:nth-of-type(2n):not(.cam-m12){
+        background-attachment:scroll;
+        height: 300px;
+    }
+    .tb{
+        display: block;
+    }
+    .m03_d,.m05_d,.m05_d_list,.m07_d,.m09_d,.m11_d,
+    .m03_img,.m05_img,.m07_img,.m09_img,.m11_img
+    {
+        width: 400px;
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .m_d h2{
+        font-size: 34px;
+    }
+    .m01_d{
+        margin: 10% 0 0 20%;
+    }
+    .m03_img{
+        padding:0;
+    }
+    .m03_roll_img{
+        top: -27px;
+        left: 25px;
+        width: 350px;
+    }
+    .m09_img_bg{
+        width: 417px;
+    }
+    .cam-m05-ct{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .m05_img,.m05_d_list{
+        float: left;
+    }
+    .m05_img{
+        padding:0;
+        margin-left: 20px;
+    }
+    .m05_d_list{
+        width:150px;
+        padding:0;
+        margin-top: -10px;
+    }
+    .m05_d{
+        clear: both;
+    }
+    .m07_img {
+        position: relative;
+        left: 8px;
+        top: -53px;
+    }
+    .m07_img_clock{
+        width: 118px;
+        top: 109px;
+        left: 163px;
+        -webkit-animation: pointer_media_medium 60s infinite linear;;
+        animation: pointer_media_medium 60s infinite linear;
+    }
+    .m09_img{
+        position: relative;
+        top: -40px;
+        width: 300px;
+    }
+    .m11_img{
+        position: relative;
+        top: -20px;
+    }
+    .m11_d_ct {
+        margin: 0 auto;
+        width: 228px;
+    }
+    .m12_ct{
+        padding: 30px 0;
+    }
+    .m12_ct h3{
+        text-align: center;
+        padding:20px 0;
+    }
+    .m12_ct span{
+        font-size: 18px;
+    }
+
+    /** campus.html END **/
+    /** contact.html  **/
+    .con_wx_pic{
+        width:100px;
+    }
+    /** contact.html END **/
+}
+@media screen and (min-width: 320px) and (max-width: 599px){
+    .header{
+        height: 100px;
+        background-color: #fff;
+    }
+    .top_nav{
+        height: 100px;
+        width: 100%;
+    }
+    .logo{
+        float:none;
+        margin:0 auto;
+        padding-top: 15px;
+    }
+    .nav{
+        float: none;
+        margin:0 auto;
+        width: 320px;
+    }
+    .h_pc{
+        display: none;
+    }
+    .h_mobile{
+        display: block;
+        text-align: center;
+    }
+    .nav>ul>li{
+        margin: 20px 15px 0;
+        width: auto;
+        float: left;
+    }
+    .nav_img{
+        display: block;
+        width: auto;
+        position: relative;
+        font-size: 15px;
+        top: 1px;
+    }
+    .nav_img img{
+        position: absolute;
+        width: 44%;
+        right: -15px;
+        top: 0;
+    }
+    .nav_img .nav li{
+        margin: 20px 10px;
+        width: 80px;
+        text-align: center;
+        float: none;
+    }
+    .more{
+        right: -50px;
+    }
+    .footer_ct{
+        width: 100%;
+        font-size: 12px;
+    }
+    .footer p{
+        float: none;
+        margin: 20px auto;
+    }
+
+    /** index.html **/
+    .container{
+        margin-top: 107px;
+    }
+    .d_bl{
+        height: 400px;
+    }
+    .d_b{
+        height: 400px;
+    }
+    .d_b1_d{
+        float: none;
+        margin: 20px auto;
+        width: 200px;
+    }
+    .d_b1_pic{
+        float: none;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .d_b2_d{
+        float: none;
+        margin: 20px auto;
+        width: 200px;
+    }
+    .d_b2_pic{
+        float: none;
+        width: 300px;
+        margin: 0 auto;
+    }
+    .d_b3_d{
+        float: none;
+        margin: 20px auto;
+        width: 200px;
+    }
+    .d_b3_pic{
+        float: none;
+        width: 300px;
+        margin: 20px auto;
+    }
+    .d_b3_pic img{
+        width: 328px;
+    }
+    .d_b3_video{
+        width: 222px;
+        height: 149px;
+        right: 50%;
+        margin-right: -121px;
+        top: 33px;
+    }
+    .title_list{
+        width: 70%;
+    }
+    .title_list img{
+        width: 70%;
+    }
+    .d_c_ct{
+        width:200px;
+    }
+    .d_c_ct ul{
+        width: 1620px;
+        left: -710px;
+        height: 350px;
+    }
+    .d_c_m{
+        width:180px;
+        transform:scale(1.1);
+    }
+    .d_c_nav{
+        display: none;
+    }
+    .d_rd{
+        height: 380px;
+    }
+    .d_rd_list{
+        margin: 20px auto;
+    }
+    .d_rd_list ul{
+        width: 100%;
+    }
+    .d_rd_list li{
+        float: none;
+        margin: 20px auto;
+    }
+    .d_rd_list li img{
+        display: block;
+        margin: 0 auto;
+        width: 35%;
+    }
+    .d_rd_list li:nth-child(2) img{
+        width: 20%;
+}
+    /** index.html END **/
+
+    /** case.html **/
+
+    .b{
+        height: 210px;
+    }
+    .b_d{
+        width: 150px;
+        margin: 70px 0 0 15px;
+    }
+    .b_d2{
+        margin: 10px 0 5px;
+    }
+    .c_ct_list h1{
+        text-align: center;
+        font-size: 16px;
+    }
+    .c_ct_list p {
+        font-size: 13px;
+    }
+
+    /** case.html END **/
+
+    /** news.html **/
+
+    .n_b{
+        height: 300px;
+    }
+    .news_bg_pic1{
+        width: 80px;
+        top: 20%;
+        left: 5%;
+    }
+    .news_bg_pic2{
+        padding-top: 155px;
+        width: 300px;
+    }
+    .news_bg_pic3{
+        width: 120px;
+        top: 10%;
+        right: 5%;
+    }
+    .news_bg_pic4{
+        width:30px;
+        right: 5%;
+    }
+    .n_ct_list{
+        min-width: 320px;
+    }
+    .n_ct_img{
+        float: none;
+        margin: 0 auto;
+        width: 150px;
+    }
+    .new_ct_d{
+        float: none;
+        margin: 20px auto;
+        font-size: 12px;
+        width: 300px;
+    }
+    .n_ct_m{
+        padding:0;
+    }
+    .new_ct_d h1{
+        text-align: center;
+        font-size: 16px;
+    }
+    .page_change {
+        width: 100%;
+        height: 22px;
+    }
+    .page_change a{
+        margin: 0 2px;
+    }
+    /** news.html END **/
+
+    /** join.html **/
+
+    .j_b{
+        height: 200px;
+    }
+    .join_bg_pic{
+        width: 320px;
+        padding-top: 63px;
+    }
+    .j_ct_m h1{
+        font-size: 16px;
+        text-align: center;
+    }
+    .j_ct_m li{
+        font-size: 13px;
+    }
+    .j_ct_d{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    /** join.html END **/
+
+    /** contact.html **/
+    .con_wx_pic{
+        width:100px;
+    }
+    .con_b{
+        height: 500px;
+    }
+    .con_b ul{
+        width:300px;
+        margin: 5% auto;
+    }
+    .con_b li{
+        clear: both;
+        float: none;
+        margin: 10px auto;
+        overflow: hidden;
+    }
+    .con_bg_phone,
+    .con_bg_email,
+    .con_bg_fax,
+    .con_bg_location,
+    .con_bg_site{
+        width: 280px;
+    }
+    .con_b .title_list{
+        padding-top: 20px;
+    }
+    .con_bg_p {
+        width: 40px;
+        float: left;
+        margin-right: 20px;
+    }
+    .con_b li span{
+        float: left;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .con_ct_list{
+        width:320px;
+        padding:50px 0;
+    }
+    .con_ct_list li {
+        margin: 10px auto;
+        width: 90%;
+        font-size: 14px;
+    }
+    .con_ct_list_p{
+        width: 40px;
+    }
+    .con_ct_list li span{
+        margin-left: 60px;
+        display: block;
+        width: 80%;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .con_ct_list_map{
+        display: none;
+    }
+
+    /** contact.html END**/
+
+    /** campus.html **/
+    .pc{
+        display: none !important;
+    }
+    .mob{
+        display: block !important;
+    }
+    .cam_ct{
+        top:107px;
+    }
+    .cam_a_d{
+        display: none;
+    }
+    .m01_d {
+        margin: 15% 0 0 20%;
+    }
+    .tb{
+        display: block;
+    }
+    .cam-m01 {
+        height: 300px;
+    }
+    .cam-m-ct{
+        width:100%;
+    }
+    .cam_ct>div:nth-of-type(2n+1):not(.cam-m01){
+        height: 480px;
+    }
+    .cam_ct>div:nth-of-type(2n):not(.cam-m12){
+        background-attachment:scroll;
+        height: 300px;
+    }
+    .m03_d,.m05_d,.m05_d_list,.m07_d,.m09_d,.m11_d,
+    .m03_img,.m05_img,.m07_img,.m09_img,.m11_img
+    {
+        float: none;
+        width: 300px;
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .m_d h2{
+        font-size: 24px;
+        line-height:44px;
+    }
+    .m_d p{
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .cam-strip{
+        height: 50px;
+    }
+    .cam-strip p{
+        line-height: 50px;
+        font-size: 12px;
+    }
+    .m03_img{
+        padding:0;
+        width:300px;
+        margin-top: 20px;
+    }
+    .cam-m03 .cam-m-ct{
+        overflow: hidden;
+    }
+    .m03_roll_img{
+        top: -24px;
+        left: 15px;
+        width: 270px;
+    }
+    .cam-m05-ct{
+        margin: 0 auto;
+    }
+    .cam-m05{
+        height: 650px !important;
+    }
+    .m05_d_list_selected{
+        color: #B6D230;
+        font-size:16px;
+    }
+    .m05_d_m{
+        float: left;
+        margin:12px 8px;
+        font-size: 16px;
+    }
+    .m05_d_m span{
+        margin-right:10px;
+    }
+    .m05_img{
+        width: 280px;
+        height: 280px;
+        padding: 0;
+    }
+    .cam-m05-box{
+        width: 280px;
+        height: 280px;
+    }
+    .m05_img li{
+        background: url(../img/campus/m5_media.png) no-repeat;
+        width: 280px;
+        height: 280px;
+    }
+    .m05_img li.m05_i2{
+        background-position: 0 -280px;
+    }
+    .m05_img li.m05_i3{
+        background-position: 0 -560px;
+    }
+    .m05_img li.m05_i4{
+        background-position: 0 -840px;
+    }
+    .m05_img li.m05_i5{
+        background-position: 0 -1120px;
+    }
+    .m05_img li.m05_i6{
+        background-position: 0 -1400px;
+    }
+    .m05_img li.m05_i7{
+        background-position: 0 -1680px;
+    }
+    .m05_img li.m05_i8{
+        background-position: 0 -1960px;
+    }
+    .m05_img li.m05_i9{
+        background-position: 0 -2240px;
+    }
+    .m07_img {
+        top: -43px;
+    }
+    .m07_img_clock{
+        width: 95px;
+        top: 86px;
+        left: 120px;
+        -webkit-animation: pointer_media_small 60s infinite linear;
+        animation: pointer_media_small 60s infinite linear;
+    }
+    .m09_img{
+        position: relative;
+        top: -40px;
+        width: 230px;
+    }
+    .cam-m09 .cam-m-ct{
+        overflow: hidden;
+    }
+    .m09_img_bg{
+        width: 318px;
+    }
+    .m11_img{
+        position: relative;
+        top: -20px;
+    }
+    .m11_d_ct {
+        margin: 0 auto;
+        width: 228px;
+    }
+    .m12_ct{
+        padding: 30px 0;
+    }
+    .m12_ct h3{
+        text-align: center;
+        padding:10px 0;
+        font-size: 24px;
+    }
+    .m12_ct span{
+        font-size: 14px;
+    }
+
+    /** campus.html END**/
+}

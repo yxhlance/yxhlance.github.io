@@ -1,0 +1,1136 @@
+
+html{
+	font-family: "Microsoft YaHei",sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+h1{
+	font-size: 20px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*导航*/
+.header{
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #E9EBEE;
+	box-shadow: 0 1px 2px 1px rgba(200,200,200,0.8);
+	z-index:100;
+}
+.head_nav{
+	width: 90%;
+	max-width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+.head_nav>.nav_logo{
+	width: 132px;
+	height: 32px;
+	margin: 12px;
+	float: left;
+}
+.head_nav>.nav{
+	margin: 10px 0 10px 100px;
+	float: left;
+}
+.nav>ul>li{
+	margin: 20px 40px 0;
+	float: left;
+	text-align: center;
+}
+.nav>ul>li a{
+	font-size: 15px;
+}
+.nav>ul>li a:hover{
+	color:#A7C31E;
+}
+.nav>ul>li a.selected{
+	color:#A7C31E;
+}
+.nav_mobile{
+	display: none;
+}
+.nav_mobile .nav_more_wrap{
+	width: 80px;
+	position: relative;
+}
+.nav_mobile .nav_more_wrap>img{
+	width: 18%;
+	position: absolute;
+	right: 8px;
+	top: 0;
+}
+.nav_more_wrap .more_list{
+	width: 100px;
+	position: absolute;
+	top: 25px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	background: #fff;
+	display: none;
+}
+.nav_more_wrap .more_list li{
+	padding: 10px 0;
+}
+/*公共部分结束*/
+/*index页面*/
+/*container 替换为 com_banner*/
+.container{
+	/*width: 100%;*/
+	/*position: relative;*/
+}
+.carousel_dot{
+	position: absolute;
+	bottom: 5%;
+	width: 100%;
+	/*z-index: 2;*/
+}
+.carousel_dot>ul{
+	margin: 0 auto;
+	width: 55px;
+	overflow: hidden;
+}
+.carousel_dot>ul li:first-child{
+	margin-left:0;
+}
+.carousel_dot>ul li{
+	width: 15px;
+	height: 15px;
+	float: left;
+	cursor: pointer;
+	margin-left: 5px;
+	background:url("../../sucai/img/index/b_dot.png") no-repeat center;
+}
+.carousel_dot>ul .dot_cur{
+	background:url("../../sucai/img/index/b_dot_s.png") no-repeat center;
+}
+.carousel_ul{
+	height: 850px;
+}
+.carousel_ul .carousel_li:nth-child(1){
+	display:list-item;
+}
+.carousel_ul .carousel_li{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	overflow:hidden;
+	display:none;
+}
+.carousel_ul #li_1{
+	background: url('../../sucai/img/index/bg3.png') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel_ul #li_2{
+	background:url("../../sucai/img/index/bg1.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel_ul #li_3{
+	background: url("../../sucai/img/index/bg2.jpg") no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.li1_pic{
+	float: right;
+	margin:100px 0 0 0;
+}
+.li1_pic img{
+	display: block;
+	width:986px;
+}
+.li1_pic .pic_video{
+	position: absolute;
+	right: 170px;
+	top: 138px;
+	/*z-index: 1;*/
+	width: 667px;
+	height: 456px;
+}
+.pic_video video{
+	width:100%;
+	height:100%;
+	-o-object-fit: fill;
+	object-fit: fill;
+	display: none;
+}
+.pic_video .play_icon{
+	width:100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	background: url("../../sucai/img/index/play.png") no-repeat center;
+	-webkit-background-size: 20%;
+	background-size: 20%;
+}
+.li1_d{
+	float: left;
+	margin: 500px 0 0 100px;
+	width: 305px;
+}
+.li2_pic{
+	float: right;
+	margin:100px 50px 0 0;
+}
+
+.li1_d img,
+.li2_pic img,
+.li2_d img,
+.li3_pic img,
+.li3_d img{
+	width:100%;
+}
+.li2_d{
+	float: left;
+	margin: 500px 0 0 100px;
+	width: 305px;
+}
+.li2_d #li2_d2{
+	margin: 10px 0;
+}
+.li2_d #li2_d3{
+	padding: 8px 3px;
+	background-color: #B3CD35;
+	border-radius: 5px;
+}
+.li2_d #li2_d3 img,
+.li3_d #li3_d3 img{
+	display: block;
+}
+.li3_pic{
+	float: left;
+	margin: 120px 0 0 70px;
+}
+.li3_d{
+	float: right;
+	margin: 200px 200px 0 0;
+}
+.li3_d #li3_d2{
+	margin: 10px 0;
+}
+.li3_d #li3_d3{
+	padding: 8px 3px;
+	background-color: #B3CD35;
+	border-radius: 5px;
+}
+.case{
+	background: url("../../sucai/img/index/bg.png");
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+/*case_title 替换为 com_title_list */
+.com_title_list,
+.case_title,
+.rd_title{
+	max-width:520px;
+	width:50%;
+	margin:0 auto;
+	padding:30px 0;
+	line-height:40px;
+	text-align: center;
+	background: url("../../sucai/img/index/line.png") no-repeat bottom center;
+}
+.com_title_list img,
+.case_title img,
+.rd_title img{
+	width:50%;
+}
+.case_cont{
+	margin:40px 0;
+	position: relative;
+}
+.case_cont .cont_box{
+	width:1500px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.cont_box ul{
+	position: relative;
+	width:2700px;
+	height:580px;
+	left:-510px;
+	padding:80px 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.case_cont .box_li{
+	float: left;
+	width:300px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+.case_cont .sideify{
+	-webkit-transform: scale(1.0);
+	-moz-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-o-transform: scale(1.0);
+	transform: scale(1.0);
+}
+.case_cont .centerify{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.case_cont .box_li img{
+	width:100%;
+}
+.cont_dire,
+.cont_dot{
+	width:80%;
+}
+.cont_dire .dire_l{
+	position: absolute;
+	top:40%;
+	left:5%;
+	cursor: pointer;
+}
+.cont_dire .dire_r{
+	position: absolute;
+	top:40%;
+	right:5%;
+	cursor: pointer;
+}
+.cont_dot .dot_ul{
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -135px;
+	/*z-index: 999;*/
+}
+.cont_dot li{
+	float: left;
+	width:20px;
+	height:20px;
+	margin-right:10px;
+	background: url("../../sucai/img/index/c_dot1.png") no-repeat center;
+}
+.cont_dot .dot_s{
+	background: url("../../sucai/img/index/c_dot_s.png") no-repeat center;
+}
+.cont_dot .dot_s2{
+	background: url("../../sucai/img/index/c_dot2.png") no-repeat center;
+}
+/* index页面中 R & D部分*/
+.rd .rd_list{
+	margin: 100px auto;
+}
+.rd_list ul{
+	width:900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.rd_list li{
+	float: left;
+	margin: 0 58px;
+}
+.footer{
+	width: 90%;
+	margin: 0 auto;
+	border-top: #e6e6e6 solid 1px;
+	overflow: hidden;
+}
+.footer_cont{
+	width: 740px;
+	margin: 0 auto;
+}
+.footer_cont p{
+	float: left;
+	margin: 20px 21px 50px 26px;
+	text-align: center;
+	color: #c2c2c2;
+}
+/*index页面结束*/
+/*campus页面*/
+/*.camp_cont 替换为 com_banner*/
+.camp_cont{
+	/*width: 100%;*/
+	/*position: relative;*/
+}
+.camp_cont .camp_b{
+	position: relative;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.camp_cont .camp_b1{
+	background-image: url(../../sucai/img/campus/bg1.jpg);
+	height:507px;
+}
+.camp_b1 .b1_d{
+	float: left;
+	margin:15% 0 0 30%;
+}
+.b_d h2{
+	color: #0080BA;
+	font-size: 40px;
+	line-height: 70px;
+}
+.b_d p{
+	color: #0080BA;
+	font-size: 18px;
+	line-height: 35px;
+}
+.b1_d h2{
+	font-size: 46px;
+	color: #fff;
+}
+.b1_d p{
+	color: #fff;
+	text-align: right;
+}
+.camp_b1 .b1_strip{
+	width: 100%;
+	height: 106px;
+	position: absolute;
+	bottom: 0;
+	background-color: #dcdcdc\9;
+	background-color: rgba(220,220,220,0.4);
+	filter: Alpha(opacity=40)\9;
+}
+.camp_b .camp_icondown{
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	bottom: -23px;
+	left: 50%;
+	margin-left: -23px;
+	cursor: pointer;
+	border-radius: 50%;
+	animation: a_d 2s infinite;
+}
+.b1_strip .camp_icondown:first-child{
+	top: -23px;
+}
+.camp_icondown img{
+	width:100%;
+}
+.camp img{
+	width: 100%;
+}
+.b1_strip>p{
+	font-size: 17px;
+	line-height: 106px;
+	text-align: center;
+	color: #eee;
+	position: absolute\9;
+	left: 0\9;
+	right: 0\9;
+}
+.camp_cont>div:nth-child(2n):not(.camp_b12){
+	background-attachment: fixed;
+	height: 430px;
+	z-index: -1;
+}
+.camp_cont>div:nth-child(2n+1):not(.camp_b1){
+	height: 530px;
+	background-color: #F0F2F5;
+}
+.camp_b .camp_b_ct{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	display: table;
+}
+.camp_b .tb{
+	display: table-cell;
+	vertical-align: middle;
+}
+.camp_b3 .b3_d{
+	padding-right: 182px;
+}
+.camp_b3 .b3_img{
+	position: relative;
+	width: 530px;
+}
+.b3_img .b3_roll_img{
+	position: absolute;
+	top: -40px;
+	left: 35px;
+}
+.b3_roll_img img{
+	-webkit-animation: roll_img 10s infinite linear;
+	animation: roll_img 10s infinite linear;
+}
+.camp_cont .camp_b2{
+	background-image: url(../../sucai/img/campus/bg2.jpg);
+}
+.camp_cont .camp_b4{
+	background-image: url(../../sucai/img/campus/bg3.jpg);
+}
+.camp_cont .camp_b6{
+	background-image: url(../../sucai/img/campus/bg4.jpg);
+}
+.camp_cont .camp_b8{
+	background-image: url(../../sucai/img/campus/bg5.jpg);
+}
+.camp_cont .camp_b10{
+	background-image: url(../../sucai/img/campus/bg6.jpg);
+}
+.camp_b5 .camp_b_ct{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	display: table;
+}
+.camp_b .mob{
+	display: none;
+}
+.b5_ct .b5_ct_img{
+	width: 324px;
+	height: 324px;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 100px;
+}
+.b5_ct_img li{
+	background: url(../../sucai/img/campus/m5.png) no-repeat;
+	width: 324px;
+	height: 324px;
+	display: none;
+	filter: none !important;
+}
+.b5_ct_img li:first-child{
+	display: block;
+}
+.b5_ct_img li.b5_img1{
+	background-position: 0 0;
+}
+.b5_ct_img li.b5_img2{
+	background-position: 0 -324px;
+}
+.b5_ct_img li.b5_img3{
+	background-position: 0 -648px;
+}
+.b5_ct_img li.b5_img4{
+	background-position: 0 -972px;
+}
+.b5_ct_img li.b5_img5{
+	background-position: 0 -1296px;
+}
+.b5_ct_img li.b5_img6{
+	background-position: 0 -1620px;
+}
+.b5_ct_img li.b5_img7{
+	background-position: 0 -1944px;
+}
+.b5_ct_img li.b5_img8{
+	background-position: 0 -2268px;
+}
+.b5_ct_img li.b5_img9{
+	background-position: 0 -2592px;
+}
+.b5_ct .b5_ct_list{
+	width: 150px;
+}
+.b5_ct_list .b5_list_t{
+	margin: 15px 0;
+	font-size: 20px;
+	color: #0080BA;
+	transition: all 0.2s;
+	cursor: pointer;
+	text-align: center;
+}
+.b5_ct_list .b5_list_selected{
+	font-size: 28px;
+}
+.b5_list_t span{
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 25px;
+	border: 5px solid #B6D230;
+	margin-top: -6px;
+	vertical-align: middle;
+}
+.camp_b7 .b7_d{
+	padding-right: 189px;
+}
+.camp_b7 .b7_d_img {
+	width: 530px;
+	position: relative;
+}
+.b7_d_img .b7_img_clock{
+	position: absolute;
+	top: 106px;
+	left: 214px;
+	-webkit-animation: roll_clock 60s infinite linear;
+	animation: roll_clock 60s infinite linear;
+}
+.camp_b9 .b9_d{
+	padding-left: 333px;
+}
+.camp_b9 .b9_ct_img{
+	width: 400px;
+	position: relative;
+}
+.b9_ct_img .b9_img_b{
+	position: relative;
+}
+.b9_ct_img .b9_img_bg{
+	position: absolute;
+	width: 555px;
+	top: 6px;
+	left: 3px;
+}
+.b9_img_b>img{
+	-webkit-animation: roll_img 20s infinite linear;
+	animation: roll_img 20s infinite linear;
+	position: relative;
+}
+.camp_b11 .b11_d{
+	padding-right: 114px;
+}
+.b11_d .b11_d_ct{
+	/*overflow: hidden;*/
+	margin-left: -10px;
+}
+.b11_d_ct li{
+	float: left;
+	color: #0080BA;
+	width: 37px;
+	margin: 10px;
+}
+.b11_d_ct span{
+	display: block;
+	width: 37px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.camp_b11 .b11_d_img{
+	width: 668px;
+}
+.camp_b12{
+	background-image: url(../../sucai/img/index/bg1.jpg);
+}
+.camp_b12 .footer{
+	width: 90%;
+	border-top: #e6e6e6 solid 1px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.footer_camp_ct{
+	width: 740px;
+	margin: 0 auto;
+}
+.footer_camp_ct p{
+	color: #c2c2c2;
+	margin: 30px 25px;
+	float: left;
+}
+.footer_camp_ct .footer_p1{
+	max-width: 240px;
+}
+.footer_camp_ct .footer_p2{
+	max-width: 200px;
+}
+.footer_camp_ct .footer_p3{
+	max-width: 220px;
+}
+
+@keyframes roll_img {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes roll_img {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes roll_clock {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transform-origin:40px 108px;
+		-ms-transform-origin:40px 108px;
+		-moz-transform-origin:40px 108px;
+		-o-transform-origin:40px 108px;
+		transform-origin:40px 108px;
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin:40px 108px;
+		-ms-transform-origin:40px 108px;
+		-moz-transform-origin:40px 108px;
+		-o-transform-origin:40px 108px;
+		transform-origin:40px 108px;
+	}
+}
+@-webkit-keyframes roll_clock {
+	0%{
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transform-origin:40px 108px;
+		-ms-transform-origin:40px 108px;
+		-moz-transform-origin:40px 108px;
+		-o-transform-origin:40px 108px;
+		transform-origin:40px 108px;
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin:40px 108px;
+		-ms-transform-origin:40px 108px;
+		-moz-transform-origin:40px 108px;
+		-o-transform-origin:40px 108px;
+		transform-origin:40px 108px;
+	}
+}
+/*600-900*/
+@keyframes roll_clock_media {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transform-origin:30px 82px;
+		-ms-transform-origin:30px 82px;
+		-moz-transform-origin:30px 82px;
+		-o-transform-origin:30px 82px;
+		transform-origin:30px 82px;
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin:30px 82px;
+		-ms-transform-origin:30px 82px;
+		-moz-transform-origin:30px 82px;
+		-o-transform-origin:30px 82px;
+		transform-origin:30px 82px;
+	}
+}
+@-webkit-keyframes roll_clock_media {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transform-origin:30px 82px;
+		-ms-transform-origin:30px 82px;
+		-moz-transform-origin:30px 82px;
+		-o-transform-origin:30px 82px;
+		transform-origin:30px 82px;
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin:30px 82px;
+		-ms-transform-origin:30px 82px;
+		-moz-transform-origin:30px 82px;
+		-o-transform-origin:30px 82px;
+		transform-origin:30px 82px;
+	}
+}
+@keyframes roll_clock_media_s {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transform-origin:25px 65px;
+		-ms-transform-origin:25px 65px;
+		-moz-transform-origin:25px 65px;
+		-o-transform-origin:25px 65px;
+		transform-origin:25px 65px;
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin:25px 65px;
+		-ms-transform-origin:25px 65px;
+		-moz-transform-origin:25px 65px;
+		-o-transform-origin:25px 65px;
+		transform-origin:25px 65px;
+	}
+}
+@-webkit-keyframes roll_clock_media_s {
+	0% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transform-origin:25px 65px;
+		-ms-transform-origin:25px 65px;
+		-moz-transform-origin:25px 65px;
+		-o-transform-origin:25px 65px;
+		transform-origin:25px 65px;
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		-ms-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-webkit-transform-origin:25px 65px;
+		-ms-transform-origin:25px 65px;
+		-moz-transform-origin:25px 65px;
+		-o-transform-origin:25px 65px;
+		transform-origin:25px 65px;
+	}
+}
+/*campus.html结束*/
+/*case.html*/
+.com_banner{
+	width: 100%;
+	margin-top: 68px;
+	overflow: hidden;
+	position: relative;
+}
+.com_banner .banner_b{
+	height: 810px;
+	background:url(../../sucai/img/case/bg.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.com_banner .banner_b_d{
+	float: left;
+	width: 400px;
+	margin: 350px 0 0 100px;
+}
+.com_banner .b_d2{
+	margin: 20px 0 10px;
+	width: 90%;
+}
+.banner_b_d img{
+	width:100%;
+}
+/*.case_ct .case_title{*/
+	/*max-width: 520px;*/
+	/*width: 50%;*/
+	/*margin: 0 auto;*/
+	/*padding: 30px 0;*/
+	/*text-align: center;*/
+	/*line-height: 40px;*/
+	/*background: url(../../sucai/img/index/line.png) no-repeat bottom center;*/
+/*}*/
+.case_ct .case_ct_list{
+	max-width: 860px;
+}
+.case_ct .case_ct_list{
+	width: 80%;
+	margin: 10px auto;
+	line-height: 30px;
+	color: #969696;
+}
+.case_ct_list h1{
+	margin-bottom: 21px;
+	color: #646464;
+	padding-top: 100px;
+}
+.case_ct_list .ct_list_img{
+	margin: 50px auto;
+	max-width: 507px;
+}
+.ct_list_img img{
+	width: 100%;
+}
+.case_footer p{
+	/*color: #c2c2c2;*/
+}
+/*case.html结束*/
+/*news.html*/
+.news_imgs{
+	height: 650px;
+	position: relative;
+	background: url(../../sucai/img/news/bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+.news_imgs .news_img1{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+.news_imgs .news_img2{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 260px;
+}
+.news_imgs .news_img3{
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+.news_imgs .news_img4{
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+}
+.news_imgs img{
+	width: 100%;
+}
+.news_ct_list{
+	position: relative;
+	margin: 30px auto;
+	width: 45%;
+	min-width: 850px;
+	padding-bottom: 40px;
+}
+.news_list_item{
+	padding: 25px 0;
+	overflow: hidden;
+}
+.news_item_img{
+	float: left;
+	clear: both;
+}
+.news_item_img img{
+	display: inline-block;
+	width: 192px;
+	height: 118px;
+}
+.news_item_d{
+	float: left;
+	width: 600px;
+	margin-left: 50px;
+	line-height: 30px;
+}
+.news_item_d h1{
+	color: #646464;
+}
+.news_item_d time{
+	color: #c8c8c8;
+	font-weight: 600;
+}
+.news_item_d p{
+	color: #969696;
+}
+.page_change{
+	min-width: 325px;
+	height: 22px;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	transform: translateX(50%);
+}
+.page_change a{
+	display: block;
+	float: right;
+	margin: 0 5px;
+	height: 22px;
+	padding: 0 8px;
+	font-size: 12px;
+	line-height: 22px;
+	border-radius: 5px;
+	background: #ecce81;
+	color: #6f6205;
+	cursor: pointer;
+}
+.page_change .pg_nums{
+	float: right;
+	height: 22px;
+}
+.page_change a.pg_num{
+	float: left;
+}
+.page_change a.selected{
+	background: #f2af03;
+}
+/*news.html结束*/
+/*join.html*/
+.job_bg{
+	height: 650px;
+	background: url(../../sucai/img/join/bg.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.job_bg .job_img{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 137px;
+}
+.job_img img{
+	width: 100%;
+}
+.join_ct_list{
+	margin: 10px auto;
+	width: 80%;
+	color: #969696;
+	line-height: 30px;
+}
+.join_list_item{
+	max-width: 520px;
+	margin: 0 auto;
+}
+.join_list_item h1{
+	padding: 30px 0 10px;
+	color: #2F96C5;
+}
+.join_list_item li:not(.li_t){
+	margin-left: 17px;
+	text-indent: -15px;
+}
+.join_ct_d{
+	line-height: 36px;
+	color: #93CA21;
+	width: 80%;
+	max-width: 660px;
+	margin: 30px auto;
+	text-align: center;
+}
+.join_ct_d span{
+	display: inline-block;
+	margin: 0 20px;
+	color: #628816;
+}
+/*join.html结束*/
+/*contact.html*/
+.contact_bg{
+	height: 650px;
+	position: relative;
+	background: url(../../sucai/img/contact/bg.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+.contact_bg .com_title_list{
+	padding-top: 50px;
+}
+.contact_wx{
+	width: 100%;
+	margin: 4% auto 2%;
+}
+.contact_wx_img{
+	margin: 0 auto;
+	width: 150px;
+}
+.contact_wx_img img,
+.contact_img_b img{
+	width: 100%;
+}
+.contact_wx p{
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+.contact_bg ul{
+	width: 805px;
+	height: 113px;
+	margin: 2% auto;
+}
+.contact_bg li{
+	float: left;
+	margin: 0 35px;
+	font-size: 18px;
+	color: #fff;
+}
+.contact_bg li span{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 25px;
+}
+.contact_bg_email{
+	width: 200px;
+}
+.contact_bg_phone{
+	width: 185px;
+}
+.contact_bg_local{
+	width: 210px;
+}
+.contact_bg .contact_img_b{
+	margin: 0 auto;
+	width: 70px;
+}
+.contact_ct{
+	position: relative;
+	overflow: hidden;
+}
+.contact_ct_list{
+	width: 1100px;
+	line-height: 70px;
+	margin: 0 auto;
+	padding: 100px 0;
+	font-size: 21px;
+}
+.contact_ct_list li{
+	margin: 50px 0;
+}
+.contact_ct_list .contact_img_b{
+	float: left;
+	width: 70px;
+}
+.contact_img_b img{
+	display: block;
+	width: 100%;
+}
+.contact_ct_list span{
+	margin-left: 40px;
+}
+.contact_ct_map{
+	position: absolute;
+	top: -55%;
+	right: 0;
+}
+.contact_ct_map img{
+	width: 100%;
+}

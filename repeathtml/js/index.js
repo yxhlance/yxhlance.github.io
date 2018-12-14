@@ -4,18 +4,20 @@ $(function(){
 	$('.nav_more_wrap').click(function() {
 		$(this).find('ul').fadeToggle();
 	});
-	$(window).scroll(function(){
+
+	// index页面播放视频
+    var playIcon = $('.play_icon');
+    playIcon.click(function(){
+        $(this).prev().css('display','block').trigger('play').end().css('display','none');
+    });
+
+    $(window).scroll(function(){
        var videoTag = $('.li1_pic .pic_video>video');
 	    if($(this).scrollTop()>21){
-            videoTag.css({
-                'width':0,
-                'height':0
-            });
+            playIcon.prev().trigger('pause');
+            videoTag.css('visibility','hidden');
         }else{
-            videoTag.css({
-                'width':'',
-                'height':''
-            });
+            videoTag.css('visibility','visible');
         }
         videoTag = null;
     })
@@ -29,10 +31,12 @@ $(function(){
 		$dot_len = $dot_li.length;
 
 	function carousel_fade(ind){
+        var carouseLi = $('.carousel_li');
 		$dot_li.eq(ind).addClass('dot_cur').siblings().removeClass('dot_cur');
-        $('.carousel_li').eq(ind).stop(true,true).fadeIn(function(){
+        carouseLi.eq(ind).stop(true,true).fadeIn(function(){
         	$(this).siblings().fadeOut();
-		})
+		});
+        carouseLi = null;
 	};
 	$dot_li.bind('click',function(){
         $ind = $(this).index();
@@ -54,10 +58,7 @@ $(function(){
 	}).mouseleave(function(){
 		$dot_ul.trigger('mouseleave');
 	});
-	// index页面播放
-	$('.play_icon').click(function(){
-		$(this).prev().css('display','block').trigger('play').end().css('display','none');
-	})
+
 });
 // 案例轮播
 $(function(){

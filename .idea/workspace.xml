@@ -1,72 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bb9b312-7fe2-46b1-8dea-3fa17445e354" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repeathtml/js/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/bg1.jpg" afterPath="$PROJECT_DIR$/sucai/img/campus/bg1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/bg2.jpg" afterPath="$PROJECT_DIR$/sucai/img/campus/bg2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/bg3.jpg" afterPath="$PROJECT_DIR$/sucai/img/campus/bg3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/bg4.jpg" afterPath="$PROJECT_DIR$/sucai/img/campus/bg4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/bg5.jpg" afterPath="$PROJECT_DIR$/sucai/img/campus/bg5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/bg6.jpg" afterPath="$PROJECT_DIR$/sucai/img/campus/bg6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/ct3_out.png" afterPath="$PROJECT_DIR$/sucai/img/campus/ct3_out.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m11.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m3.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m5.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m5_media.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m5_media.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m7.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m7_c.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m7_c.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m9.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/campus/m9_bg.png" afterPath="$PROJECT_DIR$/sucai/img/campus/m9_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/bg.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct1.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct2.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct3.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct4.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct5.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct6.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct6.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/case/ct7.jpg" afterPath="$PROJECT_DIR$/sucai/img/case/ct7.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/contact/ct_map.png" afterPath="$PROJECT_DIR$/sucai/img/contact/ct_map.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/b3_d3.png" afterPath="$PROJECT_DIR$/sucai/img/index/b3_d3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/bg.png" afterPath="$PROJECT_DIR$/sucai/img/index/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/bg1.jpg" afterPath="$PROJECT_DIR$/sucai/img/index/bg1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/bg2.jpg" afterPath="$PROJECT_DIR$/sucai/img/index/bg2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i1.png" afterPath="$PROJECT_DIR$/sucai/img/index/i1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i2.png" afterPath="$PROJECT_DIR$/sucai/img/index/i2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i3.png" afterPath="$PROJECT_DIR$/sucai/img/index/i3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i4.png" afterPath="$PROJECT_DIR$/sucai/img/index/i4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i5.png" afterPath="$PROJECT_DIR$/sucai/img/index/i5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i6.png" afterPath="$PROJECT_DIR$/sucai/img/index/i6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i7.png" afterPath="$PROJECT_DIR$/sucai/img/index/i7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/i8.png" afterPath="$PROJECT_DIR$/sucai/img/index/i8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/ih1.png" afterPath="$PROJECT_DIR$/sucai/img/index/ih1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/ih2.png" afterPath="$PROJECT_DIR$/sucai/img/index/ih2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/index/ih3.png" afterPath="$PROJECT_DIR$/sucai/img/index/ih3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/join/bg.jpg" afterPath="$PROJECT_DIR$/sucai/img/join/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/join/bg_p.png" afterPath="$PROJECT_DIR$/sucai/img/join/bg_p.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/bg.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/bg_p2.png" afterPath="$PROJECT_DIR$/sucai/img/news/bg_p2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/bg_p3.png" afterPath="$PROJECT_DIR$/sucai/img/news/bg_p3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct10.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct21.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct21.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct26.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct26.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct27.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct27.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct28.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct28.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct30.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct30.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct31.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct31.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct33.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct33.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct8.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/img/news/ct9.jpg" afterPath="$PROJECT_DIR$/sucai/img/news/ct9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sucai/video/video/v1.mp4" afterPath="$PROJECT_DIR$/sucai/video/video/v1.mp4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/campus.html" afterPath="$PROJECT_DIR$/repeathtml/html/campus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/case.html" afterPath="$PROJECT_DIR$/repeathtml/html/case.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/contact.html" afterPath="$PROJECT_DIR$/repeathtml/html/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/index.html" afterPath="$PROJECT_DIR$/repeathtml/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/join.html" afterPath="$PROJECT_DIR$/repeathtml/html/join.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repeathtml/html/news.html" afterPath="$PROJECT_DIR$/repeathtml/html/news.html" />
-    </list>
+    <list default="true" id="2bb9b312-7fe2-46b1-8dea-3fa17445e354" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -92,8 +27,8 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="220">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -249,12 +184,12 @@
       <workItem from="1544769896484" duration="6788000" />
       <workItem from="1544849833136" duration="523000" />
       <workItem from="1544851668667" duration="9230000" />
-      <workItem from="1544862868486" duration="893000" />
+      <workItem from="1544862868486" duration="1496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24277000" />
+    <option name="totallyTimeSpent" value="24880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -512,8 +447,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -269,8 +269,8 @@ $(function(){
                 }
                 // 给分页页码绑事件
                 $this.find(opts.pageClass).children('a').click(function(e){
-                    var ee = event;
-                    console.log(ee);
+                    var ee = e || window.event;
+                    //console.log(ee);
                     $(this).addClass('selected').siblings().removeClass('selected');
                     var nowPage = parseInt($(this).text());
                     addPageNew(nowPage);
